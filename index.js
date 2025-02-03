@@ -1,4 +1,4 @@
-// Creiamo la prima applicazione con NodeJs e inizializziamola con npm init
+//1 Creiamo la prima applicazione con NodeJs e inizializziamola con npm init
 
 // 2. Scriviamo un file index.js che dovrà stampare nel terminale “Hello World”. Proviamo ad eseguirlo dal terminale stesso usando i comandi di node base.
 
@@ -6,8 +6,9 @@
 
 // 4. Impostiamo un nuovo script “watch” in package.json che possa essere lanciato con npm run watch e che aggiorni in tempo reale le modifiche ai nostri file. Lanciamolo e proviamo a cambiare il nostro codice in modo che stampi nel terminale “Hello Boolean”. Dovremmo vedere il terminale senza fermare e rilanciare il server.
 //--------------------------------------------------------------------------------------------
+
 //console.log("Hello World");
 
 
 import chalk from 'chalk';
-console.log(chalk.blue('Hello') + ' ' + chalk.red('World') + chalk.green('!'));
+console.log(chalk.blue('Hello') + ' ' + chalk.red('Boolean') + chalk.green('!'));
