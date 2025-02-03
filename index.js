@@ -5,9 +5,9 @@
 // 3. Impostiamo ora uno script “start” in package.json e facciamo in modo di lanciare il nostro script con npm run start
 
 // 4. Impostiamo un nuovo script “watch” in package.json che possa essere lanciato con npm run watch e che aggiorni in tempo reale le modifiche ai nostri file. Lanciamolo e proviamo a cambiare il nostro codice in modo che stampi nel terminale “Hello Boolean”. Dovremmo vedere il terminale senza fermare e rilanciare il server.
-
+//--------------------------------------------------------------------------------------------
 //console.log("Hello World");
 
 
 import chalk from 'chalk';
-console.log(chalk.blue('Hello') + ' ' + chalk.red('World'));
+console.log(chalk.blue('Hello') + ' ' + chalk.red('World') + chalk.green('!'));
