@@ -1,15 +1,17 @@
 {
   "name": "hello-world-1",
   "version": "1.0.0",
-  "description": "creare un'applicazione con NodeJS e inizializzandola con npm init",
+  "description": "creare un'applicazione con NodeJS e inizializzarlo con npm init",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Stiv3nn/node-hello-world.git"
   },
+  "type": "module",
   "keywords": [
     "app",
     "node",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Stiv3nn/node-hello-world/issues"
   },
-  "homepage": "https://github.com/Stiv3nn/node-hello-world#readme"
+  "homepage": "https://github.com/Stiv3nn/node-hello-world#readme",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
 }
